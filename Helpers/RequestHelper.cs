@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using RestSharp;
 using SerhiiTkachenkoTestRdl.Models;
 
@@ -9,8 +8,12 @@ namespace SerhiiTkachenkoTestRdl.Helpers
     {
         public static RestRequest GetPetByIdRequest(int petId)
         {
-            RestRequest request = new RestRequest(string.Format("v2/pet/{0}", petId), Method.GET);
-            return request;
+            return new RestRequest(string.Format("v2/pet/{0}", petId), Method.GET);
+        }
+
+        public static RestRequest GetPetByIdRequest(string petId)
+        {
+            return new RestRequest(string.Format("v2/pet/{0}", petId), Method.GET);
         }
 
         public static RestRequest PostPetByName(Pet pet)
@@ -22,9 +25,7 @@ namespace SerhiiTkachenkoTestRdl.Helpers
 
         public static RestRequest DeletePet(int petId)
         {
-            RestRequest request = new RestRequest(string.Format("v2/pet/{0}", petId), Method.DELETE);
-
-            return request;
+            return new RestRequest(string.Format("v2/pet/{0}", petId), Method.DELETE);
         }
     }
 }

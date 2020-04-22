@@ -11,9 +11,15 @@ namespace SerhiiTkachenkoTestRdl.Helpers
     we need into the current class*/
     public static class ApiClient
     {
-        private static RestClient petClient = new RestClient(ConfigHelper.GetConfigParameterByKey("apiLink"));
+        private static RestClient petClient = new RestClient(ConfigHelper.GetConfigParameterByKey("apiLink")) { };
 
         public static IRestResponse GetPetById(int petId)
+        {
+            RestRequest request = RequestHelper.GetPetByIdRequest(petId);
+            return petClient.Execute(request);
+        }
+
+        public static IRestResponse GetPetById(string petId)
         {
             RestRequest request = RequestHelper.GetPetByIdRequest(petId);
             return petClient.Execute(request);

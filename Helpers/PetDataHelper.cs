@@ -6,7 +6,7 @@ namespace SerhiiTkachenkoTestRdl.Helpers
 {
     public static class PetDataHelper
     {
-        static Random r = new Random();
+        private static Random r = new Random();
 
         public static string GenerateText()
         {

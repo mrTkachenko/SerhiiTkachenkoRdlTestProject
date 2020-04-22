@@ -1,0 +1,55 @@
+﻿<Properties StartupConfiguration="{8D051AB2-4F8E-423F-ACB2-46DCF991D85A}|Unit Tests">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Helpers/ApiClient.cs">
+    <Files>
+      <File FileName="Tests/GetPetTest.cs" Line="28" Column="2" />
+      <File FileName="Tests/GetPetPositiveTest.cs" Line="14" Column="9" />
+      <File FileName="Tests/PostPetTest.cs" Line="29" Column="9" />
+      <File FileName="TestData/PostPetTestData.cs" Line="1" Column="1" />
+      <File FileName="Tests/DeletePetTest.cs" Line="9" Column="39" />
+      <File FileName="Helpers/ApiClient.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SerhiiTkachenkoTestRdl" expanded="True">
+            <Node name="SerhiiTkachenkoTestRdl" expanded="True">
+              <Node name="Enums" expanded="True" />
+              <Node name="Helpers" expanded="True">
+                <Node name="ApiClient.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="TestData" expanded="True" />
+              <Node name="Tests" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>petClient</Value>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="SerhiiTkachenkoTestRdl" expanded="True" selected="True">
+            <Node name="SerhiiTkachenkoTestRdl" expanded="True">
+              <Node name="SerhiiTkachenkoTestRdl.Tests" expanded="True">
+                <Node name="GetPetPositiveTest" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.SerhiiTkachenkoTestRdl PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Debugger.DebugSourceFolders>
+    <String>/Users/serhii.tkachenko/Library/Caches/VisualStudio/8.0/Symbols/mono/mono/1d0d939dc30a5b56f478bc9f097cab146276b9af</String>
+  </Debugger.DebugSourceFolders>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

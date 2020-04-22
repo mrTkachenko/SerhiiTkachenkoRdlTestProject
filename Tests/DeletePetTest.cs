@@ -10,8 +10,8 @@ namespace SerhiiTkachenkoTestRdl.Tests
 {
     public class DeletePetTest
     {
-        /*parametrized test was shown by me in Post tests
-         here will bi anough one test*/
+        //Parametrized test was shown by me in Post tests
+        //In delete test I'm doing only one case
         [Test()]
         public void DeletePetPositiveTest()
         {
